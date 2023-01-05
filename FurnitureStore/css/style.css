@@ -136,11 +136,43 @@ body {
     margin: 20px;
   }
 
+  #featuredProduct {
+    grid-area: featuredProduct;
+  }
+  
+  #secondaryProduct {
+    grid-area: secondaryProduct;
+  }
+
+  #CTA {
+    grid-area: CTA;
+  }
+
   #heroGrid {
     display: grid;
     grid-template-areas: 
-      'featuredProduct featuredProduct'
-      'secondaryProduct CTA';
+      "featuredProduct featuredProduct"
+      "secondaryProduct CTA";
+  }
+
+  #bookcases {
+    grid-area: bookcases;
+  }
+
+  #bedroom {
+    grid-area: bedroom;
+  }
+
+  #patio {
+    grid-area: patio;
+  }
+
+  #couches {
+    grid-area: couches;
+  }
+
+  #desks {
+    grid-area: desks;
   }
 
   #categoryGrid {
